@@ -1,6 +1,6 @@
 # Safeguard
 
-## Validação para CPF, CNPJ, Inscrição Estadual, Telefone, CEP, placas de veículos, telefone e outros campos de texto. Integrado com provedores de validação e persistência.
+### Validação para CPF, CNPJ, Inscrição Estadual, Telefone, CEP, placas de veículos, telefone e outros campos de texto. Integrado com provedores de validação e persistência.
 
 ## Dowloads
 
@@ -9,18 +9,15 @@
 
 ## Mavem
 
-### Faça o [Fork](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou baixe o [Zip](https://github.com/gilmardeveloper/java-validator-safeguard/archive/master.zip) instale no seu repositório local com comando mvn install, e adicione as dependências no seu projeto.
+### Faça o [Fork](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou baixe o [Zip](https://github.com/gilmardeveloper/java-validator-safeguard/archive/master.zip), instale no seu repositório local com comando mvn install, e adicione as dependências no seu projeto.
 
-```
-   <dependencies>
+```<dependencies>
         <dependency>
             <groupId>br.com.gilmarcarlos.developer</groupId>
             <artifactId>safeguard</artifactId>
-	          <version>0.0.1-SNAPSHOT</version>
-	      </dependency>
-    </dependencies>  
-
-   ```
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+    </dependencies>```
 
  
 
