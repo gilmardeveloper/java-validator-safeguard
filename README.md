@@ -3,9 +3,8 @@
 
 ## Dowloads e Documentação
 
-* [Clone GitHub](https://github.com/gilmardeveloper/javascript.git) https://github.com/gilmardeveloper/javascript.git
-* [Dowload ZIP](https://github.com/gilmardeveloper/javascript/archive/master.zip)
-* [Dowload Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
+* [Clone GitHub](https://github.com/gilmardeveloper/java-validator-safeguard.git) 
+* [Dowload JARs ZIP](https://github.com/gilmardeveloper/java-validator-safeguard/raw/master/downloads/safeguard.zip)
 
 ## Bibliotecas disponíveis
 
