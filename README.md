@@ -124,17 +124,18 @@
 	- Método que recebe um (String) e um (BaseParam) para ser adicionado em um (Map) de elementos
 
 - elementOf(String value, ParametroTipo tipo)
-	- Método que recebe um (String) e um (ParametroTipo) para ser adicionado em um (Map) de elementos
-
+	- Método que recebe um (String) e um (BaseParam) para ser adicionado em um (Map) de elementos
+	
 - getInvalidElements()
-	- Deve retornar uma lista de elementos inválidos chamando o método List<String> getInvalidElements() da classe (ParamVerify)
+	- Método que retorna uma lista de elementos inválidos
 
 - getValidElements()
-	- Deve retornar uma lista de elementos válidos chamando o método List<String> getValidElements() da classe (ParamVerify)
-Boolean	hasError()
-Deve retornar o resultado do método Boolean hasError() da classe (ParamVerify)
+	- Método que retorna uma lista de elementos válidos
+
+- hasError()
+	- Método que retorna true caso os elementos verificados sejam inválidos, false caso contrário
 
 - Validate()
-	- O método que faz a validação dos valores passados anteriormente no método elementOf(), e retorna a própria classe 
+	- O método que faz a validação dos valores passados anteriormente no método elementOf(), e retorna a própria classe
 
 © 2017 Gilmar Carlos All rights reserved.
