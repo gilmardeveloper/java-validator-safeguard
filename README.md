@@ -23,7 +23,7 @@
 ```
 ## Como usar
 
-1. Validando um texto
+1. Validando um elemento
 
 	```java
 	String texto = "Você pode digita apenas letras ou números";
@@ -40,6 +40,7 @@
 	String texto = "Você pode digita apenas letras ou números";
 	String numeros = "1234567890";
 	String cpf= "96205663279";
+	
 	Check check = new SafeguardCheck();
 
 	boolean hasError = check
@@ -49,6 +50,21 @@
 				.Validate()
 				.hasError();
 	```
+3. Validando o mesmo elemento
+	
+	### Obs.: Apenas opções do tipo DEFAULT devem ser usadas em um mesmo elemento, sendo distintas entre si.
+	
+	```java
+	String texto = "Você pode digita apenas letras ou números";
+		
+	Check check = new SafeguardCheck();
+
+	boolean hasError = check
+				.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
+				.elementOf(texto,ParametroTipo.DEFAULT_SEM_NUMEROS)
+				.Validate()
+				.hasError();
+	```	
 
 ## Collections                                                   
                                                                   
