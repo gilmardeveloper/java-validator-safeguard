@@ -90,12 +90,13 @@
 
 	boolean hasError = check.elementOf(empresa).Validate().hasError();
 	```
-	4.3. Usando um provedor de validação
 	
+	4.3. Usando um provedor de validação
 	
 		4.3.1 Usando a validação do Spring MVC
 		
 		```java
+		
 		public void validar(@Valid Empresa empresa, BindingResult result, HttpServletResponse response) {
 
 				if(!result.hasErrors()) { 
