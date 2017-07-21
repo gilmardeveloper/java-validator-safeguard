@@ -1,6 +1,6 @@
 # Safeguard
 
-### Validação para CPF, CNPJ, Inscrição Estadual, Telefone, CEP, placas de veículos, telefone e outros campos de texto. Integrado com provedores de validação e persistência.
+### Biblioteca java para validação de CPF, CNPJ, Inscrição Estadual, Telefone, CEP, placas de veículos, telefone e outros campos de texto. Integrado com provedores de validação e persistência.
 
 ## Dowloads
 
@@ -9,7 +9,7 @@
 
 ## Mavem
 
-### Faça o [Fork](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou baixe o [Zip](https://github.com/gilmardeveloper/java-validator-safeguard/archive/master.zip), instale no seu repositório local com comando mvn install, e adicione as dependências no seu projeto.
+### Faça o [Fork](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou baixe o [Zip](https://github.com/gilmardeveloper/java-validator-safeguard/archive/master.zip), instale no seu repositório local com comando mvn install, e adicione a dependência no seu projeto.
 
 ```
 <dependencies>
@@ -52,7 +52,7 @@
 	```
 3. Validando o mesmo elemento
 	
-	### Obs.: Apenas opções do tipo DEFAULT devem ser usadas em um mesmo elemento, sendo distintas entre si.
+	**Obs.: Apenas opções do tipo DEFAULT devem ser usadas em um mesmo elemento, sendo distintas entre si.**
 	
 	```java
 	String texto = "Você pode digita apenas letras ou números";
@@ -64,7 +64,21 @@
 				.elementOf(texto,ParametroTipo.DEFAULT_SEM_NUMEROS)
 				.Validate()
 				.hasError();
-	```	
+	```
+4. Validando atributos de classe com @Verify
+			
+	```java
+	public class Empresa {
+	
+	@Verify(ParametroTipo.TEXTO_SEM_CARACTERES_ESPECIAIS)
+	private String nome;
+	@Verify(ParametroTipo.CNPJ)
+	private String cnpj;
+	@Verify(ParametroTipo.IE_SAO_PAULO_SP)
+	private String ie;
+	
+	}
+	```		
 
 ## Collections                                                   
                                                                   
