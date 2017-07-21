@@ -95,8 +95,6 @@
 	
 		4.3.1 Usando a validação do Spring MVC
 		
-		```java
-		
 		public void validar(@Valid Empresa empresa, BindingResult result, HttpServletResponse response) {
 
 				if(!result.hasErrors()) { 
@@ -108,18 +106,13 @@
 				}
 
 		}
-		```
 		
 		4.3.2 Usando a validação do JPA
 		
-		```java
-
 		EntityManager manager = entityManagerFactory.createEntityManager();
 
 		manager.persist(empresa);
 
 		manager.close();
 
-		```
- 
 © 2017 Gilmar Carlos All rights reserved.
