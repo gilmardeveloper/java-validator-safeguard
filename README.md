@@ -94,6 +94,7 @@
 	
 	
 		4.3.1 Usando a validação do Spring MVC
+		
 		```java
 		public void validar(@Valid Empresa empresa, BindingResult result, HttpServletResponse response) {
 
@@ -107,7 +108,9 @@
 
 		}
 		```
+		
 		4.3.2 Usando a validação do JPA
+		
 		```java
 
 		EntityManager manager = entityManagerFactory.createEntityManager();
