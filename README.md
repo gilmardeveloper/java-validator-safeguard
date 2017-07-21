@@ -486,7 +486,8 @@
 	 * Cadeia de caracteres que representa um telefone fixo ou móvel com ou sem número da operadora, DD + NÚMERO formatado
 	 * 
 	 * Exemplos:
-	 * Com número da operadora 012(11)98877-4455, obs.: O dígito 9 pode ser omitido para telefones fixos (11)3344-5566	 	  * Sem o número da operadora  (11)98877-4455
+	 * Com número da operadora 012(11)98877-4455, obs.: O dígito 9 pode ser omitido para telefones fixos (11)3344-5566
+	 * Sem o número da operadora  (11)98877-4455
 	 */
 	TELEFONE_FORMATADO_BRASIL	
 	
