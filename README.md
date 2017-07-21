@@ -6,6 +6,7 @@
 
 * [Clone GitHub](https://github.com/gilmardeveloper/java-validator-safeguard.git) 
 * [Dowload JARs ZIP](https://github.com/gilmardeveloper/java-validator-safeguard/raw/master/downloads/safeguard.zip)
+* [Java Doc ZIP](https://github.com/gilmardeveloper/java-validator-safeguard/raw/master/downloads/doc.zip)
 
 ## Mavem
 
@@ -145,6 +146,7 @@
 	
 	/**Cadeia de caracteres que representa um documento de CPF formatado*/
 	CPF_FORMATADO
+	
 	/**Cadeia de caracteres que representa um documento de Titulo de Eleitor*/
 	TITULO_DE_ELEITOR
 	
@@ -495,5 +497,6 @@
 	 * Formato internacional: +55 11 98877-4455, obs.: O dígito 9 pode ser omitido para telefones fixos +55 11 3344-5566
 	 */
 	TELEFONE_FORMATADO_INTERNACIONAL
+	
 
 © 2017 Gilmar Carlos All rights reserved.
