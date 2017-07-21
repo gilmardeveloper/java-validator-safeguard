@@ -25,24 +25,17 @@
 
 1. Validando um texto
 
- ```
- String textoPadraoSemCaracteresEspeciais = "Você pode digita apenas letras ou números";
- String apenasTexto = "Apenas texto sem caracteres especiais ou números";
- String apenasNumeros = "1234567890";
- String textoEnumero = "texto com números 1234567890";
- String textoEnumeroComPontuacao = "texto com números 1234567890 ?!.:;";
+```java
+String texto = "Você pode digita apenas letras ou números";
+
+Check check = new SafeguardCheck();
  
- Check check = new SafeguardCheck();
+boolean hasError = check
+			.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
+			.Validate()
+			.hasError();
  
- boolean hasError = check.elementOf(textoPadraoSemCaracteresEspeciais, ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
-		          			   .elementOf(apenasTexto, ParametroTipo.TEXTO_SEM_CARACTERES_ESPECIAIS)
-							   .elementOf(apenasNumeros, ParametroTipo.NUMERO)
-							   .elementOf(textoEnumero, ParametroTipo.TEXTO_NUMERO_SEM_CARACTERES_ESPECIAIS)
-							   .elementOf(textoEnumeroComPontuacao, ParametroTipo.TEXTO_NUMERO_SEM_CARACTERES_ESPECIAIS_COM_PONTUACAO)
-							   .Validate()
-							   .hasError();
- 
- ```
+```
 
 
 ## Collections                                                   
