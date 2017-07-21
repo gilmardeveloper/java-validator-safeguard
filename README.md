@@ -25,18 +25,30 @@
 
 1. Validando um texto
 
-```java
-String texto = "Você pode digita apenas letras ou números";
+	```java
+	String texto = "Você pode digita apenas letras ou números";
 
-Check check = new SafeguardCheck();
- 
-boolean hasError = check
-			.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
-			.Validate()
-			.hasError();
- 
-```
+	Check check = new SafeguardCheck();
 
+	boolean hasError = check
+				.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
+				.Validate()
+				.hasError();
+	```
+2. Validando mais de um elemento
+	```java
+	String texto = "Você pode digita apenas letras ou números";
+	String numeros = "1234567890";
+	String cpf= "96205663279";
+	Check check = new SafeguardCheck();
+
+	boolean hasError = check
+				.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
+				.elementOf(numeros,ParametroTipo.NUMERO)
+				.elementOf(cpf,ParametroTipo.CPF)
+				.Validate()
+				.hasError();
+	```
 
 ## Collections                                                   
                                                                   
