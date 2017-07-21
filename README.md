@@ -90,46 +90,31 @@
 
 	boolean hasError = check.elementOf(empresa).Validate().hasError();
 	```
+	4.3. Usando um provedor de validação
+	
+	4.3.1 Usando a validação do Spring MVC
+	```java
+	public void validar(@Valid Empresa empresa, BindingResult result, HttpServletResponse response) {
+		
+			if(!result.hasErrors()) { 
+				//do anything
+				response.setStatus(200);
+			}else {
+				
+				response.setStatus(400);
+			}
+			
+	}
+	```
+	4.3.2 Usando a validação do JPA
+	```java
+	
+	EntityManager manager = entityManagerFactory.createEntityManager();
 
-## Collections                                                   
-                                                                  
-### List                                                            
-É uma classe genérica que representa uma lista de elementos.
+        manager.persist(empresa);
 
-1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
-2. [Dowload](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/collections.zip)
-3. CDN
-   
-   ```
-   <script src="https://cdn.rawgit.com/gilmardeveloper/javascript/master/collections/list.js"></script>
-   <script src="https://cdn.rawgit.com/gilmardeveloper/javascript/master/collections/list-min.js"></script>  
-
-   ```
-
-### Controller                                                            
-É uma classe genérica que representa um controlador crud.
-
-1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
-2. [Dowload](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/controller.zip)
-3. CDN
-   
-   ```
-   <script src="https://cdn.rawgit.com/gilmardeveloper/javascript/master/controller/controller.js"></script>
-   <script src="https://cdn.rawgit.com/gilmardeveloper/javascript/master/controller/controller-min.js"></script>  
-
-   ```
-
-### Hash                                                            
-Classe que gera um hash a partir de uma string
-
-1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
-2. [Dowload](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/hash.zip)
-3. CDN
-   
-   ```
-   <script src="https://cdn.rawgit.com/gilmardeveloper/javascript/master/hash/hash.js"></script>
-   <script src="https://cdn.rawgit.com/gilmardeveloper/javascript/master/hash/hash-min.js"></script>  
-
-   ```
+        manager.close();
+	
+	```
  
 © 2017 Gilmar Carlos All rights reserved.
