@@ -92,29 +92,30 @@
 	```
 	4.3. Usando um provedor de validação
 	
-	4.3.1 Usando a validação do Spring MVC
-	```java
-	public void validar(@Valid Empresa empresa, BindingResult result, HttpServletResponse response) {
-		
-			if(!result.hasErrors()) { 
-				//do anything
-				response.setStatus(200);
-			}else {
-				
-				response.setStatus(400);
-			}
-			
-	}
-	```
-	4.3.2 Usando a validação do JPA
-	```java
 	
-	EntityManager manager = entityManagerFactory.createEntityManager();
+		4.3.1 Usando a validação do Spring MVC
+		```java
+		public void validar(@Valid Empresa empresa, BindingResult result, HttpServletResponse response) {
 
-        manager.persist(empresa);
+				if(!result.hasErrors()) { 
+					//do anything
+					response.setStatus(200);
+				}else {
 
-        manager.close();
-	
-	```
+					response.setStatus(400);
+				}
+
+		}
+		```
+		4.3.2 Usando a validação do JPA
+		```java
+
+		EntityManager manager = entityManagerFactory.createEntityManager();
+
+		manager.persist(empresa);
+
+		manager.close();
+
+		```
  
 © 2017 Gilmar Carlos All rights reserved.
