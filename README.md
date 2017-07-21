@@ -65,8 +65,10 @@
 				.Validate()
 				.hasError();
 	```
-4. Validando atributos de classe com @Verify
-			
+4. Validando atributos de classe
+	
+	4.1. Anotando atributos com @Verify
+	
 	```java
 	public class Empresa {
 	
@@ -78,7 +80,16 @@
 	private String ie;
 	
 	}
-	```		
+	```
+	4.2. Validando a instância da classe de forma manual
+	
+	```java
+	Empresa empresa = new Empresa(nome, cnpj, ie);
+		
+	Check check = new SafeguardCheck();
+
+	boolean hasError = check.elementOf(empresa).Validate().hasError();
+	```
 
 ## Collections                                                   
                                                                   
