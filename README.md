@@ -27,7 +27,7 @@
 1. Validando um elemento
 
 	```java
-	String texto = "Você pode digita apenas letras ou números";
+	String texto = "digite apenas letras ou números";
 
 	Check check = new SafeguardCheck();
 
@@ -38,7 +38,7 @@
 	```
 2. Validando mais de um elemento
 	```java
-	String texto = "Você pode digita apenas letras ou números";
+	String texto = "digite apenas letras ou números";
 	String numeros = "1234567890";
 	String cpf= "96205663279";
 	
