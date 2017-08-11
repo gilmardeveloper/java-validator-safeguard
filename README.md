@@ -10,14 +10,14 @@
 
 ## Mavem
 
-### Faça o [Fork](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou baixe o [Zip](https://github.com/gilmardeveloper/java-validator-safeguard/archive/master.zip), instale no seu repositório local com comando mvn install, e adicione a dependência no seu projeto.
+### Faça o [Clone](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou baixe o [Zip](https://github.com/gilmardeveloper/java-validator-safeguard/archive/master.zip), instale no seu repositório local com comando mvn install, e adicione a dependência no seu projeto.
 
 ```
 <dependencies>
 	<dependency>
 		<groupId>br.com.gilmarcarlos.developer</groupId>
 		<artifactId>safeguard</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1-RELEASE</version>
 	</dependency>
 </dependencies>
 
@@ -27,7 +27,7 @@
 1. Validando um elemento
 
 	```java
-	String texto = "Você pode digita apenas letras ou números";
+	String texto = "digite apenas letras ou números";
 
 	Check check = new SafeguardCheck();
 
@@ -38,7 +38,7 @@
 	```
 2. Validando mais de um elemento
 	```java
-	String texto = "Você pode digita apenas letras ou números";
+	String texto = "digite apenas letras ou números";
 	String numeros = "1234567890";
 	String cpf= "96205663279";
 	
