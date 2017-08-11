@@ -64,7 +64,7 @@ public interface Check {
 	 * 
 	 * @return this retorna a própria classe
 	 */
-	SafeguardCheck Validate();
+	SafeguardCheck validate();
 	
 	/**
 	 * Deve retornar o resultado do método {@code Boolean hasError()} da classe (ParamVerify)

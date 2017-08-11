@@ -31,7 +31,7 @@ public class TesteDeParametros {
 							   .elementOf(apenasNumeros, ParametroTipo.NUMERO)
 							   .elementOf(textoEnumero, ParametroTipo.TEXTO_NUMERO_SEM_CARACTERES_ESPECIAIS)
 							   .elementOf(textoEnumeroComPontuacao, ParametroTipo.TEXTO_NUMERO_SEM_CARACTERES_ESPECIAIS_COM_PONTUACAO)
-							   .Validate()
+							   .validate()
 							   .hasError();
 		
 		/*
@@ -50,7 +50,7 @@ public class TesteDeParametros {
 		boolean temErro2 = check
 				.elementOf(apenasTexto, ParametroTipo.DEFAULT_SEM_NUMEROS)
 				.elementOf(apenasTexto, ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
-				.Validate()
+				.validate()
 				.hasError();
 
 		
@@ -58,7 +58,7 @@ public class TesteDeParametros {
 		boolean temErro3 = check
 								.elementOf(apenasTexto, ParametroTipo.DEFAULT_SEM_NUMEROS)
 								.elementOf(apenasTexto, ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
-								.Validate()
+								.validate()
 								.hasError();
 		
 		

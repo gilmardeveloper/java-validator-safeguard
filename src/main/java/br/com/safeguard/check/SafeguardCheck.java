@@ -79,7 +79,7 @@ public class SafeguardCheck implements Check {
 	 * 
 	 * @return this retorna a própria classe
 	 */
-	public SafeguardCheck Validate() {
+	public SafeguardCheck validate() {
 		
 		try {
 			if (!stringElements.isEmpty()) {

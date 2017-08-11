@@ -35,7 +35,7 @@ public class TesteDeObjetosAnotados {
 		Check check = new SafeguardCheck();
 		
 		/*Validação manual usando a interface Check*/
-		Check resultados = check.elementOf(pessoa).Validate();
+		Check resultados = check.elementOf(pessoa).validate();
 		int quantidadeDeElementosInvalidos = resultados.getInvalidElements().size();
 		boolean temErro = resultados.hasError();
 			

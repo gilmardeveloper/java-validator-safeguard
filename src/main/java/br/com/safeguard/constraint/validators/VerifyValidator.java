@@ -36,7 +36,7 @@ public class VerifyValidator implements ConstraintValidator<Verify, String>{
 		}
 		
 		check = new SafeguardCheck();
-		parametros.forEach((parametro) -> check.elementOf(value, parametro).Validate());
+		parametros.forEach((parametro) -> check.elementOf(value, parametro).validate());
 		
 		if(check.hasError()) {
 			context.disableDefaultConstraintViolation();
