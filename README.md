@@ -33,7 +33,7 @@
 
 	boolean hasError = check
 				.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
-				.Validate()
+				.validate()
 				.hasError();
 	```
 2. Validando mais de um elemento
@@ -48,7 +48,7 @@
 				.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
 				.elementOf(numeros,ParametroTipo.NUMERO)
 				.elementOf(cpf,ParametroTipo.CPF)
-				.Validate()
+				.validate()
 				.hasError();
 	```
 3. Validando o mesmo elemento
@@ -63,7 +63,7 @@
 	boolean hasError = check
 				.elementOf(texto,ParametroTipo.DEFAULT_SEM_CARACTERES_ESPECIAIS)
 				.elementOf(texto,ParametroTipo.DEFAULT_SEM_NUMEROS)
-				.Validate()
+				.validate()
 				.hasError();
 	```
 4. Validando atributos de classe
@@ -136,7 +136,7 @@
 - hasError()
 	- Método que retorna true caso os elementos verificados sejam inválidos, false caso contrário
 
-- Validate()
+- validate()
 	- O método que faz a validação dos valores passados anteriormente no método elementOf(), e retorna a própria classe
 
 ## Lista de Validações
