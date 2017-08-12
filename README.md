@@ -15,7 +15,7 @@
 ```
 <dependencies>
 	<dependency>
-		<groupId>br.com.gilmarcarlos.developer</groupId>
+		<groupId>github.com.gilmardeveloper</groupId>
 		<artifactId>safeguard</artifactId>
 		<version>0.0.1-RELEASE</version>
 	</dependency>
