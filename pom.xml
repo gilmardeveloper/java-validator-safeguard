@@ -106,12 +106,34 @@
 		</plugins>
 	</build>
 
+	<description>Biblioteca java para validação de CPF, CNPJ, Inscrição Estadual, Telefone, CEP, placas de veículos, telefone e outros campos de texto. Integrado com provedores de validação e persistência.</description>
+	<url>https://github.com/gilmardeveloper/java-validator-safeguard</url>
+
 	<organization>
 		<name>Gilmar Carlos</name>
 		<url>https://github.com/gilmardeveloper</url>
 	</organization>
+
 	<scm>
-		<url>https://github.com/gilmardeveloper/java-validator-safeguard.git</url>
-		<developerConnection>Gilmar Carlos</developerConnection>
+		<connection>scm:git:git://github.com/gilmardeveloper/java-validator-safeguard.git</connection>
+		<developerConnection>scm:git:ssh://github.com:gilmardeveloper/java-validator-safeguard.git</developerConnection>
+		<url>https://github.com/gilmardeveloper/java-validator-safeguard</url>
 	</scm>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Gilmar Carlos</name>
+			<email>gilmarcarlos.developer@gmail.com</email>
+			<organization>GilmarDeveloper</organization>
+			<organizationUrl>https://github.com/gilmardeveloper</organizationUrl>
+		</developer>
+	</developers>
+
 </project>
