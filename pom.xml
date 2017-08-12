@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>br.com.gilmarcarlos.developer</groupId>
+	<groupId>github.com.gilmardeveloper</groupId>
 	<artifactId>safeguard</artifactId>
 	<version>0.0.1-RELEASE</version>
 	<packaging>jar</packaging>
@@ -110,4 +110,8 @@
 		<name>Gilmar Carlos</name>
 		<url>https://github.com/gilmardeveloper</url>
 	</organization>
+	<scm>
+		<url>https://github.com/gilmardeveloper/java-validator-safeguard.git</url>
+		<developerConnection>Gilmar Carlos</developerConnection>
+	</scm>
 </project>
