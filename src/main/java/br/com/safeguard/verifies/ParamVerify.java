@@ -89,7 +89,7 @@ public class ParamVerify {
 	/**
 	 * Método public que retorna uma lista de elementos inválidos
 	 * 
-	 * @return List<String> Lista de elementos inválidos
+	 * @return List Lista de elementos inválidos
 	 */	
 	public List<String> getInvalidElements() {
 		return invalidElements;
@@ -98,7 +98,7 @@ public class ParamVerify {
 	/**
 	 * Método public que retorna uma lista de elementos válidos
 	 * 
-	 * @return List<String> Lista de elementos válidos
+	 * @return List Lista de elementos válidos
 	 */	
 	public List<String> getValidElements() {
 		return validElements;

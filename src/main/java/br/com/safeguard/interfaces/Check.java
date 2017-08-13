@@ -46,7 +46,7 @@ public interface Check {
 	 * O método que faz a validação dos valores passados anteriormente no método {@code elementOf()}, 
 	 * e retorna a própria classe 
 	 * 
-	 * @see
+	 * 
 	 * 
 	 * Para implementação do método
 	 *  
@@ -76,14 +76,14 @@ public interface Check {
 	/**
 	 * Deve retornar uma lista de elementos inválidos chamando o método {@code List<String> getInvalidElements()} da classe (ParamVerify)
 	 * 
-	 * @return List<String> Lista de lementos inválidos
+	 * @return List Lista de lementos inválidos
 	 */
 	List<String> getInvalidElements();
 	
 	/**
 	 * Deve retornar uma lista de elementos válidos chamando o método {@code List<String> getValidElements()} da classe (ParamVerify)
 	 * 
-	 * @return List<String> Lista de elementos válidos
+	 * @return List Lista de elementos válidos
 	 */
 	List<String> getValidElements();
 	

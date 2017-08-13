@@ -21,17 +21,17 @@ import br.com.safeguard.types.ParametroTipo;
  * 
  * <p>Pode ser usada junto a um provedor de validação compativel com (javax.validation.ConstraintValidator)</p>
  * 
- * @see 
- * <ul>
- * <li>Valor default: {@code ParametroTipo.DEFAULT}</li>
- * <li>Exemplo de uso:</li>
- * <ul>
- * <p>
+ * 
+ * 
+ * Valor default: {@code ParametroTipo.DEFAULT}
+ * Exemplo de uso:
+ * 
+ * 
  * {@code @verify}<br>
  * {@code private String nome;}<br>
  * {@code @verify(ParametroTipo.CPF_FORMATADO)}<br>
  * {@code private String cpf;}<br>
- * </p>
+ * 
  * 
  * @author Gilmar Carlos
  *

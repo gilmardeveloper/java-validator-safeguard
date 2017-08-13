@@ -109,7 +109,7 @@ public class SafeguardCheck implements Check {
 	/**
 	 *Método que retorna uma lista de elementos inválidos
 	 * 
-	 * @return List<String> retorna uma lista de elementos inválidos
+	 * @return List retorna uma lista de elementos inválidos
 	 */
 	public List<String> getInvalidElements() {
 		return verify.getInvalidElements();
@@ -119,7 +119,7 @@ public class SafeguardCheck implements Check {
 	/**
 	 *Método que retorna uma lista de elementos válidos
 	 * 
-	 * @return List<String> retorna uma lista de elementos válidos
+	 * @return List retorna uma lista de elementos válidos
 	 */
 	public List<String> getValidElements() {
 		return verify.getValidElements();

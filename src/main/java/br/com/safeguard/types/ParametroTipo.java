@@ -286,13 +286,13 @@ public enum ParametroTipo implements BaseParam{
 	/**
 	 * Cadeia de caracteres que representa um telefone fixo ou móvel com ou sem número da operadora, DD + NÚMERO
 	 * 
-	 * <p>
+	 * 
 	 * Exemplos:
 	 * <ul>
 	 * <li>Com número da operadora 	  01211988774455, obs.: O dígito 9 pode ser omitido para telefones fixos 1133445566 </li>
 	 * <li>Sem o número da operadora  11988774455</li>
 	 * </ul> 
-	 * </p> 
+	 *  
 	 * 
 	 */
 	TELEFONE																(new PatternValidator(Patterns.TELEFONE)),
@@ -300,25 +300,25 @@ public enum ParametroTipo implements BaseParam{
 	/**
 	 * Cadeia de caracteres que representa um telefone fixo ou móvel com ou sem número da operadora, DD + NÚMERO formatado
 	 * 
-	 * <p>
+	 * 
 	 * Exemplos:
 	 * <ul>
 	 * <li>Com número da operadora 	  012(11)98877-4455, obs.: O dígito 9 pode ser omitido para telefones fixos (11)3344-5566 </li>
 	 * <li>Sem o número da operadora  (11)98877-4455</li>
 	 * </ul> 
-	 * </p> 
+	 *  
 	 * 
 	 */
 	TELEFONE_FORMATADO_BRASIL												(new PatternValidator(Patterns.TELEFONE_FORMATADO_BRASIL)),
 	/**
 	 * Cadeia de caracteres que representa um telefone fixo ou móvel com o número do país, DD + NÚMERO formatado
 	 * 
-	 * <p>
+	 * 
 	 * Exemplos:
 	 * <ul>
 	 * <li>Formato internacional: +55 11 98877-4455, obs.: O dígito 9 pode ser omitido para telefones fixos +55 11 3344-5566 </li>
 	 * </ul> 
-	 * </p> 
+	 *  
 	 * 
 	 */
 	TELEFONE_FORMATADO_INTERNACIONAL										(new PatternValidator(Patterns.TELEFONE_FORMATADO_INTERNACIONAL));
