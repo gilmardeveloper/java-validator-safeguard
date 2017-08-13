@@ -5,17 +5,17 @@
 ## Dowloads
 
 * [Clone GitHub](https://github.com/gilmardeveloper/java-validator-safeguard.git) 
-* [Dowload JARs ZIP](https://github.com/gilmardeveloper/java-validator-safeguard/raw/master/downloads/safeguard.zip)
-* [Java Doc ZIP](https://github.com/gilmardeveloper/java-validator-safeguard/raw/master/downloads/doc.zip)
+* [Dowload JAR](https://oss.sonatype.org/content/groups/public/com/github/gilmardeveloper/safeguard/0.0.1-RELEASE/safeguard-0.0.1-RELEASE.jar)
+
 
 ## Mavem
 
-### Faça o [Clone](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou baixe o [Zip](https://github.com/gilmardeveloper/java-validator-safeguard/archive/master.zip), instale no seu repositório local com comando mvn install, e adicione a dependência no seu projeto.
-
+### Faça o [Clone](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou use o mavem adicionando a dependência 
+no seu arquivo pom.xml.
 ```
 <dependencies>
 	<dependency>
-		<groupId>github.com.gilmardeveloper</groupId>
+		<groupId>com.github.gilmardeveloper</groupId>
 		<artifactId>safeguard</artifactId>
 		<version>0.0.1-RELEASE</version>
 	</dependency>
