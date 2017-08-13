@@ -10,8 +10,7 @@
 
 ## Mavem
 
-### Faça o [Clone](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou use o mavem adicionando a dependência 
-no seu arquivo pom.xml.
+### Faça o [Clone](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou use o mavem adicionando a dependência no seu arquivo pom.xml.
 ```
 <dependencies>
 	<dependency>
