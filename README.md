@@ -2,10 +2,10 @@
 
 ### Biblioteca java para validação de CPF, CNPJ, Inscrição Estadual, Telefone, CEP, placas de veículos, telefone e outros campos de texto. Integrado com provedores de validação e persistência.
 
-## Dowloads
+## Downloads
 
 * [Clone GitHub](https://github.com/gilmardeveloper/java-validator-safeguard.git) 
-* [Dowload JAR](https://oss.sonatype.org/content/groups/public/com/github/gilmardeveloper/safeguard/0.0.1-RELEASE/safeguard-0.0.1-RELEASE.jar)
+* [Download JAR](https://oss.sonatype.org/content/groups/public/com/github/gilmardeveloper/safeguard/0.0.1-RELEASE/safeguard-0.0.1-RELEASE.jar)
 
 
 ## Maven
