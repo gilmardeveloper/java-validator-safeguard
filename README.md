@@ -7,7 +7,6 @@
 * [Clone GitHub](https://github.com/gilmardeveloper/java-validator-safeguard.git) 
 * [Download JAR](https://oss.sonatype.org/content/groups/public/com/github/gilmardeveloper/safeguard/0.0.1-RELEASE/safeguard-0.0.1-RELEASE.jar)
 
-
 ## Maven
 
 ### Faça o [Clone](https://github.com/gilmardeveloper/java-validator-safeguard.git) ou use o maven adicionando a dependência no seu arquivo pom.xml.

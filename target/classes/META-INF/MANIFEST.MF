@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: safeguard
+Implementation-Version: 0.0.1-RELEASE
+Built-By: Gilmar
+Implementation-Vendor-Id: com.github.gilmardeveloper
+Build-Jdk: 1.8.0_141
+Implementation-URL: https://github.com/gilmardeveloper/java-validator-
+ safeguard
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Gilmar Carlos
+
