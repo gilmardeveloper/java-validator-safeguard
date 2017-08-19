@@ -1,0 +1,15 @@
+br\com\safeguard\exceptions\SafeguardException.class
+br\com\safeguard\SafeguardApplication.class
+br\com\safeguard\interfaces\Check.class
+br\com\safeguard\interfaces\BasePattern.class
+br\com\safeguard\interfaces\BaseParam.class
+br\com\safeguard\types\ParametroTipo.class
+br\com\safeguard\constraint\validators\VerifyValidator.class
+br\com\safeguard\messages\ErrorMessage.class
+br\com\safeguard\verifies\ParamVerify.class
+br\com\safeguard\check\SafeguardCheck.class
+br\com\safeguard\patterns\Patterns.class
+br\com\safeguard\validators\PatternValidator.class
+br\com\safeguard\constraint\annotations\Verify$List.class
+br\com\safeguard\constraint\annotations\Verify.class
+br\com\safeguard\params\Param.class
